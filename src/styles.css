@@ -1,12 +1,62 @@
 body {
-    background-color: red;
+    background-color: darkblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.2em;
 }
 
 main {
     background-color: white;
-    padding: 1em;
+    padding: 2em;
     max-width: 1140px;
     margin: 0 auto;
+    border-radius: 0.5em;
+
 }
+
+h3 {
+    margin-top: 5%;
+}
+
+p,
+ul {
+    margin-bottom: 5%;
+    max-width: 75ch;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    background-color: white;
+    padding: 1em;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+nav a {
+    color: black;
+    padding: 1em;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav li:hover {
+    background-color: black;
+}
+
+.page {
+    background-color: rgb(199, 199, 199);
+}
+
