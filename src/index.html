@@ -1,17 +1,72 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moment 1</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="styles.css" />
     <script type="module" src="app.js"></script>
 </head>
+
 <body>
     <main>
         <h1>Moment 1 - Automatisering & publicering</h1>
         <h2>Information om uppgiften</h2>
-        <p></p>
+        <h3>Syfte</h3>
+        <p>Målen med uppgiften är att:</p>
+        <ul>
+            <li>Få en inblick hur NodeJS kan användas för att underlätta arbetet med att utveckla en webbplats.</li>
+            <li>Kunna automatisera uppgifter med något kommandobaserat verktyg i NodeJs, med syfte att förenkla
+                utvecklingsarbetet av en webbplats.</li>
+            <li>Kunna skapa en automatiserad utvecklingsmiljö baserad på Git och NodeJs för att kunna göra automatisk
+                publicering vid uppdatering av webbplatsen/Git-repot.</li>
+            <li>Kunna automatisera transpilering och minifiering av CSS, HTML och JavaScript samt automatiskt skapa
+                optimerade grafikfiler.</li>
+            <li>Skapa en så kallad "boilerplate" för webbutveckling, som kan användas som grund för framtida projekt.
+            </li>
+        </ul>
+        <h3>Uppgifter</h3>
+        <h4>Git och Github</h4>
+        <p>Git och GitHub ska användas regelbundet med bra versionshantering.<br>
+            Regelbundna commits med tydliga meddelanden krävs.<br>
+            .gitignore ska användas för att undvika versionering av irrelevanta filer, t.ex. node_modules.<br>
+            Arbeta med branches, exempelvis dev och main, för att organisera utvecklingsflödet.<br>
+            Repositoriet ska vara lätt att klona och återanvända för framtida projekt.</p>
+        <h4>Automatisering och publicering</h4>
+        <p>Repositoriet ska göras publikt vid inlämning.<br>
+            Skapa en webbstruktur med HTML, CSS, JavaScript och bilder.<br>
+            Använd Node.js för att automatisera uppgifter (t.ex. Parcel eller Gulp).<br>
+            Paket och beroenden ska listas i package.json, och applikationen ska kunna återställas med npm
+            install.<br><br>
+            Automatiserade uppgifter:</p>
+        <ul>
+            <li>Minifiering av CSS</li>
+            <li>Transpilering och minifiering av JavaScript</li>
+            <li>Minifiering av HTML</li>
+            <li>Optimering av bilder (automatiskt vid uppdatering)</li>
+            <li>Bakåtkompatibilitet för webbläsare</li>
+            <li>Kopiering av arbetsfiler till en publiceringsmapp</li>
+        </ul>
+        <h4>Skapa demowebbplats</h4>
+        <p>Webbplatsen ska ha en responsiv design och innehålla HTML, CSS och JavaScript.<br>
+            Ska inkludera en huvudmeny med stöd för valfritt antal alternativ.<br><br>
+            Minst tre undersidor ska finnas:</p>
+        <ol>
+            <li>Startsida med info om uppgiften</li>
+            <li>Undersida med minst fem fotografier</li>
+            <li>Undersida där arbetsprocessen beskrivs</li>
+        </ol>
+        <p>Strukturerad filhantering med separata kataloger för CSS, JavaScript och bilder.
+            Tydlig uppdelning mellan arbetsfiler och publiceringsfiler.</p>
+        <h4>Publicering</h4>
+        <p>Webbplatsen ska publiceras på en host utan FTP/SFTP (t.ex. Netlify, Render, Vercel eller GitHub Pages).
+            Publiceringen ska ske automatiskt vid uppdateringar i GitHub-repot.<br>
+            Använd branches för att separera utveckling och publicering, t.ex. development för testning och main för
+            produktionsversionen.<br>
+            Skapa en undersida som detaljerat beskriver arbetsprocessen, vad som automatiserats och vilka verktyg som
+            använts.</p>
     </main>
 </body>
+
 </html>
