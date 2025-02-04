@@ -1,0 +1,12 @@
+body {
+    background-color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+main {
+    background-color: white;
+    padding: 1em;
+    max-width: 1140px;
+    margin: 0 auto;
+}
