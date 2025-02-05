@@ -10,6 +10,7 @@ main {
     max-width: 1140px;
     margin: 0 auto;
     border-radius: 0.5em;
+    line-height: 1.3em;
 
 }
 
@@ -60,3 +61,36 @@ nav li:hover {
     background-color: rgb(199, 199, 199);
 }
 
+@media screen and (max-width: 550px) {
+    body {
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        padding: 2%;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.4em;
+        margin-bottom: 10%;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    nav li {
+        padding: 0.6em;
+        display: list-item;
+        border-radius: 0.5em;
+        margin: 1em;
+    }
+}
