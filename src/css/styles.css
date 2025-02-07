@@ -14,6 +14,10 @@ main {
 
 }
 
+h1 {
+    max-width: 90%
+}
+
 h3 {
     margin-top: 5%;
 }
@@ -61,6 +65,12 @@ nav li:hover {
     background-color: rgb(199, 199, 199);
 }
 
+.photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media screen and (max-width: 550px) {
     body {
         font-size: 1em;
@@ -92,5 +102,10 @@ nav li:hover {
         display: list-item;
         border-radius: 0.5em;
         margin: 1em;
+    }
+
+    .photos img {
+        width: 80%;
+        padding: 12;
     }
 }
