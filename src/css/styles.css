@@ -15,7 +15,8 @@ main {
 }
 
 h1 {
-    max-width: 90%
+    max-width: 90%;
+    line-height: 2em;
 }
 
 h3 {
