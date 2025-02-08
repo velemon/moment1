@@ -10,8 +10,6 @@ main {
     max-width: 1140px;
     margin: 0 auto;
     border-radius: 0.5em;
-    line-height: 1.3em;
-
 }
 
 h1 {
@@ -27,6 +25,7 @@ p,
 ul {
     margin-bottom: 5%;
     max-width: 75ch;
+    line-height: 1.3em;
 }
 
 header {
